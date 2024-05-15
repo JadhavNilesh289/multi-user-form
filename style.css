@@ -1,0 +1,78 @@
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #307cff;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  color: whitesmoke;
+}
+
+.nav-div {
+  width: 100%;
+  /* border: 1px black dotted; */
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  font-weight: normal;
+}
+
+button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 16px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.container-2 {
+  background-color: #f1f1f1;
+}
+
+.signup-link {
+  width: auto;
+  padding: 10px 18px;
+}
+
+span.psw {
+  float: right;
+  padding: 0px 18px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="style.css" />
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-div">
+        <ul>
+          <li>Home</li>
+          <li>User</li>
+        </ul>
+      </div>
+    </nav>
+
+    <form method="post" class="userForm">
+      <div class="container">
+        <h2>Login Form</h2>
+
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter Full Name"
+          name="name"
+          required
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter Email"
+          name="email"
+          required
+        />
+
+        <label for="user">Username</label>
+        <input
+          type="text"
+          id="user"
+          placeholder="Enter Username"
+          name="user"
+          required
+        />
+
+        <label for="pass">Password</label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="pass"
+          required
+        />
+
+        <br />
+
+        <br />
+        <label>
+          <input type="checkbox" checked="checked" name="remember" /> Remember
+          me
+        </label>
+        <button type="submit">Login</button>
+      </div>
+
+      <div class="container container-2">
+        <span class="signup-link"><a href="#">Sign Up</a></span>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
